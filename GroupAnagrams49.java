@@ -34,6 +34,7 @@ class GroupAnagrams49 {
         for (int i : freq) {
             sb.append(ch1);
             sb.append(i);
+            ch1++;
         }
         return sb.toString();
     }
