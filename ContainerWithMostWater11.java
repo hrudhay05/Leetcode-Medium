@@ -16,6 +16,7 @@ public class ContainerWithMostWater11 {
     }
     public static void main(String[] args) {
         ContainerWithMostWater11 solution = new ContainerWithMostWater11();
+        
         int[] example1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.println("Max Area for Example 1: " + solution.maxArea(example1));
         int[] example2 = {3, 9, 3, 4, 7, 2, 12, 6};
